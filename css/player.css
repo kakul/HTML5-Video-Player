@@ -1,0 +1,235 @@
+
+#play{
+	display: inline-block;
+	border-top: 8px solid transparent;
+	border-left: 10px solid black;
+    border-bottom: 8px solid transparent;
+  	position: absolute;
+  	margin-left: 5px;
+  	margin-top: 2px;
+}
+#controls{
+	height: 20px;
+	width: 475px;
+	z-index: 2147483647;
+	position: absolute;
+	display: block;
+	background-color: white;
+	opacity: 0.8;
+}
+#pause{
+	position: absolute;
+	display: none;
+	width: 20px;
+	height: 20px;
+	//background-color: gray;
+}
+#bar1{
+	width: 5px;
+	height: 15px;
+	background-color: blue;
+	margin-left: 4px;
+	margin-top: 2px;
+}
+#bar2{
+	width: 5px;
+	height: 15px;
+	background-color: blue;
+	margin-left: -2px;
+	margin-top: 2px;
+}
+.pauseBar{
+	display: inline-block;
+}
+.circle{
+	background-color: greenyellow;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+}
+
+.screen{
+	bottom:0;
+	left: 50%;
+	margin-left: -250px;
+}
+#progressBar{
+	width:262px;
+	height:0px;
+	border-top: 2px solid cornflowerblue;
+	border-bottom: 2px solid cornflowerblue;
+	position: absolute;
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 9px;
+}
+#bufferedAmt{
+	width:0px;
+	height: 0px;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	position: absolute;
+	display: inline-block;
+	margin-top: -2px;
+	z-index: 1;
+}
+
+#seekCircle{
+	position: relative;
+	margin-top: -6px;
+	margin-left: 0px;
+	z-index: 3;
+}
+#volCircle{
+	position: relative;
+	margin-top: -6px;
+	margin-left: 0px;
+	z-index: 1;
+
+}
+
+
+
+#pButton{
+	position: absolute;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	//margin-left: 8px;
+}
+#complete{
+	width:0px;
+	height:4px;
+	margin-top: -8px;
+	background-color: red;
+	z-index: 2;
+	position: absolute;
+}
+#volume{
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	display: inline-block;
+	margin-left: 304px;
+	margin-top: 2px;
+}
+#volBar{
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	display: inline-block;
+	width: 112px;
+	background-color: gray;
+	height: 0px;
+	margin-top: 7px;
+	position: absolute;
+	margin-left: 29px;
+}
+#volCurrent{
+	z-index: 1;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+	display: inline-block;
+	background-color: green;
+	width: 112px;
+	height: 0px;
+	position: absolute;
+	margin-top: -2px
+}
+
+
+#speaker{
+	position: absolute;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+#square{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: -7px;
+	display: inline-block;
+	width: 4px;
+	height: 10px;
+	background-color: black;
+}
+#trapezium{
+	display: inline-block;
+	height: 10px;
+	border-right:6px solid black;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+	margin-left: -2px; 
+}
+#maximize{
+ background-color: gray;
+ height: 12px;
+ width: 12px;
+ margin-left: 454px;
+ border: 2px solid black;
+ margin-top: 2px;
+}
+#small{
+
+	margin-top: 4px;
+	width: 6px;
+	height: 6px;
+	border: 1px solid black;
+	background-color: black;
+}
+
+
+video::-webkit-media-controls{
+	display:none;
+}
+#volAmt1{
+<<<<<<< HEAD
+	width: 20px;
+	height: 20px;
+	margin-left: -6px;
+	margin-top: -24px;
+	position: absolute;
+	border-right: 2px solid white;
+	border-radius: 10px;
+	z-index: 3;
+=======
+	width:9px;
+	height: 9px;
+	//border-top: 2px solid;
+	border-right: 2px solid;
+	//border-bottom: 2px solid;
+	border-radius: 5px;
+	margin-left: -2px;
+	margin-top: -16px;
+	position: absolute;
+>>>>>>> 9e47ae0ecba7792cdbcae15bdf483d95d4195b64
+	
+}
+#volAmt2{
+	width:15px;
+	height: 15px;
+	//border-top: 2px solid;
+	border-right: 2px solid;
+	//border-bottom: 2px solid;
+	border-radius: 7px;
+	margin-left: -3px;
+	margin-top: -19px;
+	position: absolute;
+}
+#volAmt3{
+	width:19px;
+	height: 19px;
+	//border-top: 2px solid;
+	border-right: 2px solid;
+	//border-bottom: 2px solid;
+	border-radius: 10px;
+	margin-left: -2px;
+	margin-top: -21px;
+	position: absolute;
+}
+#vidAmt{
+	width: 0%;
+	height: 1px;
+	background-color: green;
+	border-top: 2px solid greenyellow;
+	border-bottom: 2px solid greenyellow;
+}

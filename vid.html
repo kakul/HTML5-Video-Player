@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/player.css">
+	<body>
+		<div id="playerContainer">
+			<video id="vid" preload="auto">
+				<source src="" type="video/mp4"/><!--replace src with required file name!-->
+			</video>
+			<div id="controls">
+				<div id="pButton">
+					<div id="play"></div>
+						<div id="pause">
+							<div id="bar1" class="pauseBar"></div>
+							<div id="bar2" class="pauseBar"></div>
+					</div>
+				</div>
+
+				<div id="progressBar">
+					<div id="bufferedAmt"></div>
+					<div id="seekCircle" class="circle"></div>
+					<div id="complete"></div>
+				</div>
+			
+				
+				<div id="volume">
+					<div id="speaker">
+						<div id="square"></div>
+						<div id="trapezium"></div>
+						<div id="volAmt1"></div>
+						<div id="volAmt2"></div>
+						<div id="volAmt3"></div>
+					</div>
+					<div id="volBar">
+						<div id="volCurrent"></div>
+						<div id="volCircle" class="circle"></div>
+					</div>
+				</div>
+				<div id="maximize">
+					<div id="small"></div>
+				</div>
+
+			</div>
+		</div>
+		<script src="js/player.js"></script>	
+	</body>
+</html>
