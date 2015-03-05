@@ -8,4 +8,6 @@
 * Volume Control
 
 ######Usage:
-Simply replace src="" with src="filename.mp4" 
+
+- Clone the repository
+- Simply replace src in vid.html with src="filename.mp4" 
